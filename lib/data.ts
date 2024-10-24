@@ -95,7 +95,7 @@ export const projectsData = [
     title: "Borcella",
     description:
     "Two apps for E-commerce platform Client needed, one for Customers and one for admin. Each has a lot of features with secure admin panel.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Shadcn UI " , "Stipe"],
+    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Shadcn UI " , "Stripe"],
     imageUrl: logo,
     href:"https://github.com/Abdelrhman-Abass/Borcella_Store"
   },
@@ -103,7 +103,7 @@ export const projectsData = [
     title: "ArtMarket",
     description:
     "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel",
-    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI " , "Stipe"],
+    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI " , "Stripe"],
     imageUrl: artMarket,
     href:"https://github.com/Abdelrhman-Abass/ArtMarket"
   },
@@ -128,7 +128,7 @@ export const projectsData = [
     title: "Digital hippo",
     description:
       "E-commerce platform, Offers CRUD operations, secure authentication, basic CMS, search/filtering, and responsive design.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS" , "Stipe"],
+    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS" , "Stripe"],
     imageUrl: thumbnail,
     href:"https://github.com/Abdelrhman-Abass/digital-hippo"
   },
