@@ -3,10 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { FcMindMap } from "react-icons/fc";
 import { SiGreatlearning } from "react-icons/si";
-
+import { PiCertificateBold } from "react-icons/pi";
 import { LuGraduationCap } from "react-icons/lu";
 import thumbnail from "@/public/thumbnail.jpg";
 import login from "@/public/login.png";
+import artMarket from "@/public/artMarket.png";
 import Realtor from "@/public/Realtor.png";
 import first from "@/public/First.png";
 import illustration from "@/public/illustration.png";
@@ -56,6 +57,22 @@ export const experiencesData = [
     date: "2024",
   },
   {
+    title: "DEPI internship",
+    location: "Egypt",
+    description:
+      "Among 200 hours of technical meetings and a lot of projects I had hands in web development projects.I got certified in react.js, TypeScript, Next.js, node.js, express,Tailwind CSS",
+    icon: React.createElement(PiCertificateBold),
+    date: "2024",
+  },
+  {
+    title: "ITI summer internship",
+    location: "Egypt",
+    description:
+      "With a lot of projects i got certified in Html, CSS, Bootstrap, JavaScript, react.js.",
+    icon: React.createElement(PiCertificateBold),
+    date: "2022 - 2023",
+  },
+  {
     title: "ICPC Finalist",
     location: "Egypt",
     description:
@@ -64,12 +81,12 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "FrontEnd Mentor",
+    title: "Technical Head FullStack",
     location: "Egypt",
     description:
-      "As a member at Gdsc damanhour university, I assist fellow members in learning new tools and more skills. Provide support for understanding concepts in front end development.",
+      "Mentoring and training students in programming and problem-solving techniques in web development led to learning new tools and more skills.",
     icon: React.createElement(SiGreatlearning),
-    date: "2024",
+    date: "2023 - Present",
   },
 ] as const;
 
@@ -83,6 +100,14 @@ export const projectsData = [
     href:"https://github.com/Abdelrhman-Abass/Borcella_Store"
   },
   {
+    title: "ArtMarket",
+    description:
+    "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel for managing products, orders, and customers.",
+    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI " , "Stipe"],
+    imageUrl: artMarket,
+    href:"https://github.com/Abdelrhman-Abass/ArtMarket"
+  },
+  {
     title: "Realtor",
     description:
       "Dealing with CRUD operations. Easily buy, sell and explore apartments with a nice design and easy to use with a strong authentication system.",
@@ -92,20 +117,20 @@ export const projectsData = [
   },
 
   {
+    title: "Instagram",
+    description:
+      "Explore social media. Easily create and explore posts with strong authentication system and quick data fetching  for a smooth user experience.",
+    tags: ["React", "TypeScript", "React-query", "Tailwind", "Appwrite","shadcn"],
+    imageUrl: login,
+    href:"https://github.com/Abdelrhman-Abass/instagram"
+  },
+  {
     title: "Digital hippo",
     description:
       "E-commerce platform, Offers CRUD operations, secure authentication, basic CMS, search/filtering, and responsive design.",
     tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS" , "Stipe"],
     imageUrl: thumbnail,
     href:"https://github.com/Abdelrhman-Abass/digital-hippo"
-  },
-  {
-    title: "Insatgram",
-    description:
-      "Explore social media. Easily create and explore posts with strong authentication system and quick datafetching  for a smooth user experience.",
-    tags: ["React", "TypeScript", "React-query", "Tailwind", "Appwrite","shadcn"],
-    imageUrl: login,
-    href:"https://github.com/Abdelrhman-Abass/instagram"
   },
   
   
