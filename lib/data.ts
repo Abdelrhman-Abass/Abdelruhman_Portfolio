@@ -70,7 +70,7 @@ export const experiencesData = [
     description:
       "With a lot of projects i got certified in Html, CSS, Bootstrap, JavaScript, react.js.",
     icon: React.createElement(PiCertificateBold),
-    date: "2022 - 2023",
+    date: "2024",
   },
   {
     title: "ICPC Finalist",
@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "ArtMarket",
     description:
-    "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel for managing products, orders, and customers.",
+    "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel",
     tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI " , "Stipe"],
     imageUrl: artMarket,
     href:"https://github.com/Abdelrhman-Abass/ArtMarket"
