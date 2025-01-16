@@ -53,9 +53,9 @@ export const experiencesData = [
     title: "Software FrontEnd Next.js Developer",
     location: "Cairo, Egypt",
     description:
-      "Currently working as a FrontEnd Developer. As part of the team, I contribute to developing and maintaining high-quality web applications, focusing on E-commerce platforms. My work includes utilizing Next.js and React to create responsive and user-friendly interfaces, ensuring scalability and performance.",
+      "As part of the team, I contribute to developing and maintaining high-quality web applications.Using Next.js and React to create responsive and user-friendly interfaces, ensuring scalability and performance.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "2024 - Present",
   },
   {
     title: "Software Team Leader",
@@ -103,7 +103,7 @@ export const projectsData = [
   {
     title: "Property Search",
     description:
-      "A high-performance property application designed to simplify property searching and selling. The app supports multiple languages with seamless translations and has been endorsed by 100 CEOs for its reliability and user-centric features. It includes advanced tools for buyers, sellers with an intuitive interface.",
+      "A high-performance property app for seamless searching and selling. With multilingual support, a user-friendly interface, and trusted by 100+ CEOs, it delivers innovative tools for buyers and sellers.",
     tags: ["JavaScript", "React", "Next.js", "Sass"],
     imageUrl: property,
     href: "https://property-search.com"
