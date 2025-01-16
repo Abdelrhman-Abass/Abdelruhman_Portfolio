@@ -12,6 +12,7 @@ import Realtor from "@/public/Realtor.png";
 import first from "@/public/First.png";
 import illustration from "@/public/illustration.png";
 import logo from "@/public/logo.png";
+import property from "@/public/white-logo.webp";
 
 export const links = [
   {
@@ -49,11 +50,19 @@ export const experiencesData = [
     date: "Expected Graduation: 2025",
   },
   {
+    title: "Software FrontEnd Next.js Developer",
+    location: "Cairo, Egypt",
+    description:
+      "Currently working as a FrontEnd Developer. As part of the team, I contribute to developing and maintaining high-quality web applications, focusing on E-commerce platforms. My work includes utilizing Next.js and React to create responsive and user-friendly interfaces, ensuring scalability and performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
     title: "Software Team Leader",
     location: "Alexandria",
     description:
       "I worked as a Team leader for E-commerce Software platform in a freelance project that takes 4 months.",
-      icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CgWorkAlt),
     date: "2024",
   },
   {
@@ -92,20 +101,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Property Search",
+    description:
+      "A high-performance property application designed to simplify property searching and selling. The app supports multiple languages with seamless translations and has been endorsed by 100 CEOs for its reliability and user-centric features. It includes advanced tools for buyers, sellers with an intuitive interface.",
+    tags: ["JavaScript", "React", "Next.js", "Sass"],
+    imageUrl: property,
+    href: "https://property-search.com"
+  },
+  {
     title: "Borcella",
     description:
-    "Two apps for E-commerce platform Client needed, one for Customers and one for admin. Each has a lot of features with secure admin panel.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Shadcn UI " , "Stripe"],
+      "Two apps for E-commerce platform Client needed, one for Customers and one for admin. Each has a lot of features with secure admin panel.",
+    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Shadcn UI ", "Stripe"],
     imageUrl: logo,
-    href:"https://github.com/Abdelrhman-Abass/Borcella_Store"
+    href: "https://github.com/Abdelrhman-Abass/Borcella_Store"
   },
   {
     title: "ArtMarket",
     description:
-    "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel",
-    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI " , "Stripe"],
+      "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel",
+    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI ", "Stripe"],
     imageUrl: artMarket,
-    href:"https://github.com/Abdelrhman-Abass/ArtMarket"
+    href: "https://github.com/Abdelrhman-Abass/ArtMarket"
   },
   {
     title: "Realtor",
@@ -113,34 +130,34 @@ export const projectsData = [
       "Dealing with CRUD operations. Easily buy, sell and explore apartments with a nice design and easy to use with a strong authentication system.",
     tags: ["React", "Firebase", "SQL", "Tailwind", "React-Router-Dom"],
     imageUrl: Realtor,
-    href:"https://github.com/Abdelrhman-Abass/Relator-V2"
+    href: "https://github.com/Abdelrhman-Abass/Relator-V2"
   },
 
   {
     title: "Instagram",
     description:
       "Explore social media. Easily create and explore posts with strong authentication system and quick data fetching  for a smooth user experience.",
-    tags: ["React", "TypeScript", "React-query", "Tailwind", "Appwrite","shadcn"],
+    tags: ["React", "TypeScript", "React-query", "Tailwind", "Appwrite", "shadcn"],
     imageUrl: login,
-    href:"https://github.com/Abdelrhman-Abass/instagram"
+    href: "https://github.com/Abdelrhman-Abass/instagram"
   },
   {
     title: "Digital hippo",
     description:
       "E-commerce platform, Offers CRUD operations, secure authentication, basic CMS, search/filtering, and responsive design.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS" , "Stripe"],
+    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS", "Stripe"],
     imageUrl: thumbnail,
-    href:"https://github.com/Abdelrhman-Abass/digital-hippo"
+    href: "https://github.com/Abdelrhman-Abass/digital-hippo"
   },
-  
-  
+
+
   {
     title: "Youtube",
     description:
       "Dealing with CRUD operations. Modern YouTube Clone Application in React JS with Material UI design and easy to use with a strong authentication system.",
     tags: ["React", "MUI UI", "Redux", "Tailwind", "React-Router-Dom"],
     imageUrl: first,
-    href:"https://github.com/Abdelrhman-Abass/Yotube-v1"
+    href: "https://github.com/Abdelrhman-Abass/Yotube-v1"
   },
   {
     title: "JobBoard",
@@ -148,7 +165,7 @@ export const projectsData = [
       "Modern job board with responsive design. Easily create, post Jobs with authentication system. Explore & Submit Job Applications.",
     tags: ["Javascript", "Python", "Django", "Django-Rest", "Sass"],
     imageUrl: illustration,
-    href:"https://github.com/Abdelrhman-Abass/job-board-django/tree/main"
+    href: "https://github.com/Abdelrhman-Abass/job-board-django/tree/main"
   },
 ] as const;
 
