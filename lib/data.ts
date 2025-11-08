@@ -12,6 +12,8 @@ import Realtor from "@/public/Realtor.png";
 import first from "@/public/First.png";
 import illustration from "@/public/illustration.png";
 import logo from "@/public/logo.png";
+import rashed from "@/public/rashed.png";
+import legend from "@/public/legend.png";
 import property from "@/public/white-logo.webp";
 
 export const links = [
@@ -44,148 +46,156 @@ export const links = [
 export const experiencesData = [
   {
     title: "BSc in Computer Science",
-    location: "Faculty of Computer and Information",
-    description: "Currently at the senior level in my degree program",
+    location: "Damanhur University, Egypt",
+    description:
+      "Graduated with a Bachelor's degree in Computer Science, focusing on Algorithms, Web Development, and Software Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "Expected Graduation: 2025",
+    date: "Graduated: 2025",
   },
   {
-    title: "Software FrontEnd Next.js Developer",
-    location: "Cairo, Egypt",
+    title: "Front-End Developer – IT Legend",
+    location: "Remote, Egypt",
     description:
-      "As part of the team, I contribute to developing and maintaining high-quality web applications.Using Next.js and React to create responsive and user-friendly interfaces, ensuring scalability and performance.",
+      "Developed and optimized enterprise-grade Next.js platforms for 5K+ users, boosting performance by 95% using SSR, code-splitting, and lazy loading. Built a TypeScript + ShadCN UI library that reduced development time by 30%.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - Present",
+    date: "2024 – 2025",
   },
   {
-    title: "Software Team Leader",
-    location: "Alexandria",
+    title: "React Developer – DEPI Internship",
+    location: "Remote, Egypt",
     description:
-      "I worked as a Team leader for E-commerce Software platform in a freelance project that takes 4 months.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024",
-  },
-  {
-    title: "DEPI internship",
-    location: "Egypt",
-    description:
-      "Among 200 hours of technical meetings and a lot of projects I had hands in web development projects.I got certified in react.js, TypeScript, Next.js, node.js, express,Tailwind CSS",
+      "Delivered 4+ responsive web apps integrating REST APIs using React.js and Node.js. Built reusable UI components with React Hook Form and TanStack Table while collaborating in agile sprints.",
     icon: React.createElement(PiCertificateBold),
     date: "2024",
   },
   {
-    title: "ITI summer internship",
-    location: "Egypt",
+    title: "Tech Lead & Full-Stack Developer (Freelance)",
+    location: "Remote",
     description:
-      "With a lot of projects i got certified in Html, CSS, Bootstrap, JavaScript, react.js.",
-    icon: React.createElement(PiCertificateBold),
-    date: "2024",
+      "Led a team of 5 developers to deliver 7+ full-stack applications using Next.js, Node.js, and MongoDB. Integrated Stripe, Paymob, and PayPal for secure payments and managed agile workflows with CI/CD.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 – Present",
   },
   {
-    title: "ICPC Finalist",
+    title: "Technical Head – GDG on Campus",
     location: "Egypt",
     description:
-      "Engaged in problem-solving competitions. Although our first attempt wasn't the best, we improved significantly in subsequent years.",
-    icon: React.createElement(FcMindMap),
-    date: "2022 - 2023",
-  },
-  {
-    title: "Technical Head FullStack",
-    location: "Egypt",
-    description:
-      "Mentoring and training students in programming and problem-solving techniques in web development led to learning new tools and more skills.",
+      "Mentored over 150 students in front-end development. Conducted workshops on React, Next.js, and performance optimization while promoting clean code and scalable architecture.",
     icon: React.createElement(SiGreatlearning),
-    date: "2023 - Present",
+    date: "2023 – Present",
+  },
+  {
+    title: "ICPC Regional Finalist",
+    location: "Egypt",
+    description:
+      "Qualified as an ICPC Regional Finalist, gaining advanced problem-solving, analytical thinking, and teamwork skills through competitive programming.",
+    icon: React.createElement(FcMindMap),
+    date: "2023",
+  },
+  {
+    title: "ITI Summer Internship",
+    location: "Egypt",
+    description:
+      "Completed intensive training in HTML, CSS, JavaScript, Bootstrap, and React.js. Built practical front-end projects and gained hands-on experience in UI design and component development.",
+    icon: React.createElement(PiCertificateBold),
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Property Search",
+    title: "IT Legend Platform",
     description:
-      "A high-performance property app for seamless searching and selling. With multilingual support, a user-friendly interface, and trusted by 100+ CEOs, it delivers innovative tools for buyers and sellers.",
-    tags: ["JavaScript", "React", "Next.js", "Sass"],
-    imageUrl: property,
-    href: "https://property-search.com"
+    "Course and e-commerce web platform with performance optimizations improving SEO and speed by 95%.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Shadcn UI", "React Query", "Docker"],
+    imageUrl: legend,
+    href: "https://itlegend.net/",
   },
   {
-    title: "Borcella",
+    title: "Property Search Optimization",
     description:
-      "Two apps for E-commerce platform Client needed, one for Customers and one for admin. Each has a lot of features with secure admin panel.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Shadcn UI ", "Stripe"],
+      "Optimized a legacy real estate platform to achieve 95%+ Lighthouse scores and 100% accessibility using SSR and code cleanup.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "React Query", "Docker"],
+    imageUrl: property,
+    href: "https://property-search.com/",
+  },
+  {
+    title: "Rashed – AI Fake News Detection",
+    description:
+      "AI-powered fake news detection web app integrating Hugging Face NLP models and real-time dashboards. Awarded A+ for innovation and UX.",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Express", "Python", "BERT"],
+    imageUrl: rashed,
+    href: "https://github.com/Abdelrhman-Abass/Rashed-GradALL",
+  },
+  {
+    title: "Borcella – E-Commerce Platform",
+    description:
+      "Full e-commerce system with customer and admin panels, secure payments, and responsive design.",
+    tags: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Shadcn UI", "Stripe"],
     imageUrl: logo,
-    href: "https://github.com/Abdelrhman-Abass/Borcella_Store"
+    href: "https://github.com/Abdelrhman-Abass/Borcella_Store",
   },
   {
     title: "ArtMarket",
     description:
-      "Internship graduation project. Developed a full-stack e-commerce platform for users to browse and purchase artwork, with an admin panel",
-    tags: ["JavScript", "React", "Express.js", "PostgreSQL,", "Tailwind", "Shadcn UI ", "Stripe"],
+      "Full-stack artwork marketplace built during DEPI internship, integrating payments and admin control.",
+    tags: ["React", "Express.js", "PostgreSQL", "Tailwind", "Stripe"],
     imageUrl: artMarket,
-    href: "https://github.com/Abdelrhman-Abass/ArtMarket"
+    href: "https://github.com/Abdelrhman-Abass/ArtMarket",
+  },
+  {
+    title: "Digital Hippo",
+    description:
+      "Modern e-commerce app with CMS, CRUD operations, authentication, and payment system.",
+    tags: ["Next.js", "TypeScript", "MongoDB", "Payload CMS", "Stripe"],
+    imageUrl: thumbnail,
+    href: "https://github.com/Abdelrhman-Abass/digital-hippo",
+  },
+  {
+    title: "Instagram Clone",
+    description:
+      "Social media platform for creating and browsing posts with authentication and optimized data fetching.",
+    tags: ["React", "TypeScript", "React Query", "Appwrite", "Tailwind", "Shadcn UI"],
+    imageUrl: login,
+    href: "https://github.com/Abdelrhman-Abass/instagram",
   },
   {
     title: "Realtor",
     description:
-      "Dealing with CRUD operations. Easily buy, sell and explore apartments with a nice design and easy to use with a strong authentication system.",
-    tags: ["React", "Firebase", "SQL", "Tailwind", "React-Router-Dom"],
+      "Real estate app for property management with CRUD operations, authentication, and responsive UI.",
+    tags: ["React", "Firebase", "SQL", "Tailwind"],
     imageUrl: Realtor,
-    href: "https://github.com/Abdelrhman-Abass/Relator-V2"
-  },
-
-  {
-    title: "Instagram",
-    description:
-      "Explore social media. Easily create and explore posts with strong authentication system and quick data fetching  for a smooth user experience.",
-    tags: ["React", "TypeScript", "React-query", "Tailwind", "Appwrite", "shadcn"],
-    imageUrl: login,
-    href: "https://github.com/Abdelrhman-Abass/instagram"
-  },
-  {
-    title: "Digital hippo",
-    description:
-      "E-commerce platform, Offers CRUD operations, secure authentication, basic CMS, search/filtering, and responsive design.",
-    tags: ["TypeScript", "React", "Next.js", "MongoDB", "Tailwind", "Payload CMS", "Stripe"],
-    imageUrl: thumbnail,
-    href: "https://github.com/Abdelrhman-Abass/digital-hippo"
-  },
-
-
-  {
-    title: "Youtube",
-    description:
-      "Dealing with CRUD operations. Modern YouTube Clone Application in React JS with Material UI design and easy to use with a strong authentication system.",
-    tags: ["React", "MUI UI", "Redux", "Tailwind", "React-Router-Dom"],
-    imageUrl: first,
-    href: "https://github.com/Abdelrhman-Abass/Yotube-v1"
+    href: "https://github.com/Abdelrhman-Abass/Relator-V2",
   },
   {
     title: "JobBoard",
     description:
-      "Modern job board with responsive design. Easily create, post Jobs with authentication system. Explore & Submit Job Applications.",
-    tags: ["Javascript", "Python", "Django", "Django-Rest", "Sass"],
+      "Responsive job platform with authentication, job creation, and Django REST integration.",
+    tags: ["Python", "Django", "JavaScript", "Sass"],
     imageUrl: illustration,
-    href: "https://github.com/Abdelrhman-Abass/job-board-django/tree/main"
+    href: "https://github.com/Abdelrhman-Abass/job-board-django",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "JavaScript (ES6+)",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Sass",
-  "Prisma",
-  "MongoDB",
+  "HTML5",
+  "CSS3",
+  "TailwindCSS",
+  "ShadCN UI",
   "Redux",
-  "Express",
+  "Zustand",
+  "React Query",
+  "Express.js",
   "PostgreSQL",
+  "MongoDB",
+  "Docker",
+  "Git / GitHub",
+  "CI/CD",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
